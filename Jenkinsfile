@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "anmolsingh8858/static-website"  // <-- YAHAN APNA DOCKER HUB USERNAME DAAL
         CONTAINER_NAME = "my-static-site"
-        HOST_PORT = "8080"
+        HOST_PORT = "8081"
     }
 
     stages {
